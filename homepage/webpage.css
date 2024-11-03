@@ -1,0 +1,108 @@
+body{
+  margin: 0px;
+  background-color: #101820;
+  
+  
+}
+
+.search{
+  margin-top: 5px;
+  align-items: center;
+  display: block;
+  
+}
+
+.searchbox{
+  margin-top: 60px;
+  margin-left: 500px;
+  margin-right: auto;
+  align-items: center;
+  color: aliceblue;
+  height: 30px;
+  width: 500px;
+  background-color: black;
+  border: rgb(0, 0, 0) solid 3px ;
+  border-radius: 10px;
+transition: .5s;
+}
+.searchbox:hover{
+  border: yellow solid 2px;
+  transition: .1s;
+}
+.searchbox:focus{
+  border: yellow solid 5px;
+  outline: none;
+}
+
+.text{
+  margin-left: 500px;
+  margin-top: 200px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+h1{
+  color: white;
+}
+.instagram{
+  height: 30px;
+  width: 100px;
+  margin-left: 500px; 
+  color: yellow;
+  background: transparent;
+  border: yellow solid 2px;
+  border-radius: 10px; 
+  transition: .5s;
+  font-weight: bolder;
+  padding: 3px;
+}
+
+.instagram:hover{
+  height: 35px;
+  width: 102px;
+  margin-left: 500px; 
+  transition: .5s;
+}
+.instagram:active{
+  height: 40px;
+  width: 104px;
+  margin-left: 500px; 
+  color: whitesmoke;
+  background: yellow;
+  border: red solid 2px;
+  border-radius: 10px; 
+  transition: .5s;
+  font-weight: bolder;
+  padding: 3px;
+}
+
+.git{
+  height: 30px;
+  width: 100px;
+  margin-left: 300px; 
+  color: yellow;
+  background: transparent;
+  border: yellow solid 2px;
+  border-radius: 10px; 
+  transition: .5s;
+  font-weight: bolder;
+  padding: 3px;
+}
+
+.git:hover{
+  height: 35px;
+  width: 102px;
+  margin-left: 300px; 
+  transition: .5s;
+}
+.git:active{
+  height: 40px;
+  width: 104px;
+  margin-left: 300px; 
+  color: whitesmoke;
+  background: yellow;
+  border: red solid 2px;
+  border-radius: 10px; 
+  transition: .5s;
+  font-weight: bolder;
+  padding: 3px;
+}

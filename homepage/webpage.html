@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="=X-UA-Compatible" content="ie-edge">
+        <title>legends page</title>
+        <link rel="stylesheet" href="webpage.css">
+        <body>
+          
+            <div class="search">
+                <input type="text" placeholder="search" id="searchInput" class="searchbox" />
+                
+              </div>
+              <div class="text">
+                <h1>PROLEGEND</h1>
+              </div>
+                  <button class="instagram" onclick="window.location.href='https://www.bing.com/ck/a?!&&p=e78e999ab9518dbcf2f65919ac495eddf744f62ca21f51b673c297f36615c083JmltdHM9MTczMDUwNTYwMA&ptn=3&ver=2&hsh=4&fclid=2674d2f1-1659-68f5-0028-c60317a1695e&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1'">INSTAGRAM</button>
+                </div>
+            </div>
+            <button class="git" onclick="window.location.href='https://github.com'">GITHUB</button>
+          </div>             
+
+            
+            
+        
+            <script>
+               function searchBing() {
+            var query = document.getElementById("searchInput").value;
+            var url = "https://www.bing.com/search?q=" + encodeURIComponent(query);
+            window.open(url, "_blank");
+        }
+
+        // Allow pressing Enter key to submit
+        document.getElementById("searchInput").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                searchBing();
+            }
+        });
+
+            </script>
+        </body>
+    </head>
+</html>
